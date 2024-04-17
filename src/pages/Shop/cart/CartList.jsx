@@ -3,7 +3,6 @@ import { useCartContext } from "../../../@core/provider/CartProvider"
 import { useEffect, useState } from "react";
 import Button from '@mui/material/Button';
 import DeleteIcon from '@mui/icons-material/Delete';
-
 import { Link } from "react-router-dom";
 function CartList(){
     const {cartItems, setIsCheckedAll, isCheckedAll, removeAll}= useCartContext();

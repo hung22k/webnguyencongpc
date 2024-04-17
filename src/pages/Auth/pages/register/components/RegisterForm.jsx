@@ -37,7 +37,7 @@ export const RegisterForm = (props) => {
       toast.success("Đăng ký thành công");
       navigate("/login");
     } catch (err) {
-      toast.error("Đăng ký thất bại");
+      toast.error("Đăng cký thất bại");
     }
   });
 
